@@ -26,11 +26,11 @@ end
 print(generateGUID(true))
 
 if isfile("guid.lua") then
-local contents = readfile("guid.lua")
-local __newcontents = contents.."\n"..generateGUID(true)
+    local contents = readfile("guid.lua")
+    local __newcontents = contents .. "\n" .. generateGUID(true)
 
-delfile("guid.lua")
-writefile("guid.lua", __newcontents)
+    delfile("guid.lua")
+    writefile("guid.lua", __newcontents)
 else
-writefile("guid.lua", generateGUID(true)
+    writefile("guid.lua", generateGUID(true))
 end
