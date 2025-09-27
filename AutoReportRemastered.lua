@@ -70,8 +70,6 @@ local words = {
     ['hack'] = 'Scamming',
     ['download'] = 'Scamming',
     ['youtube'] = 'Offsite Links',
-
-    -- Additional entries
     ['whore'] = 'Bullying',
     ['hoe'] = 'Bullying',
     ['slut'] = 'Bullying',
@@ -91,6 +89,9 @@ local words = {
     ['ass'] = 'Swearing',
     ['boobs'] = 'Swearing',
     ['balls'] = 'Swearing',
+	['ez'] = 'Bullying',
+	['L'] = 'Bullying,',
+	['loser'] = 'Bullying',
     ['tits'] = 'Swearing',
     ['anal'] = 'Swearing',
     ['pussy'] = 'Swearing',
@@ -247,7 +248,9 @@ local words = {
     ['drug dealer'] = 'Swearing',
     ['overdose'] = 'Swearing',
     ['syringe'] = 'Swearing',
-    ['needle'] = 'Swearing'
+    ['needle'] = 'Swearing',
+	['67'] = 'Spamming',
+	['69'] = 'Spamming'
 }
 
 local players = game:GetService('Players')
@@ -294,6 +297,6 @@ end)
 
 lib.notification:message{
 	Title = "Auto Report Remastered",
-	Description = "Credits to CF-Trail & pkplaysrblx (LF)",
+	Description = "Credits to CF-Trail & pkplaysrblx (PS)",
 	Icon = 6023426926
 }
